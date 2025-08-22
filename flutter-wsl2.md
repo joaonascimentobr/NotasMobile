@@ -6,7 +6,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y;
 sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa
 ```
 
-## 2. Verifica a versão do Flutter
+### 2. Verifica a versão do Flutter
 
 ```bash
 flutter --version
@@ -14,16 +14,16 @@ flutter --version
 
 ---
 
-2. Rode `flutter doctor` para verifica o SDK foi instalado da web:
+### 3. Rode `flutter doctor` para verifica o SDK foi instalado da web:
 
 ```bash
 flutter doctor
 ```
 ---
 
-## 🚀 Rodar um projeto Flutter Web
+### 🚀 Rodar um projeto Flutter Web
 
-### 3. Criar um novo projeto
+### 4. Criar um novo projeto
 
 ```bash
 flutter create meu_app_web
