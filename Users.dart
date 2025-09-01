@@ -10,7 +10,6 @@ class Users {
     required this.nome,
     required this.email,
     required this.password,
-    required this.email_verificado,
   });
 
   String getInformacoes() {
@@ -20,6 +19,6 @@ class Users {
 }
 
 void main() {
-  Users usuario = new Users(id: 1, nome: "Pedro", email: "pedro@gmail.com", password: "123", email_verificado: true);
+  Users usuario = new Users(id: 1, nome: "Pedro", email: "pedro@gmail.com", password: "123");
   print(usuario.getInformacoes());
 }
