@@ -3,7 +3,6 @@ class Users {
   final String nome;
   final String email;
   final String password;
-  final bool email_verificado;
 
   Users ({
     required this.id,
