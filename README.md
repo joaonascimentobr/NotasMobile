@@ -40,5 +40,5 @@ from the package authors, and more.
 
 
 ## AVISO!
-Baixar dependencias!
+Baixar dependencias
 Executar: dart pub get
